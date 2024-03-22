@@ -1,0 +1,72 @@
+.zgcx {
+  background: rgba(245, 245, 245, 1);
+
+  .head {
+    padding: 30px;
+    background: #ffffff;
+  }
+
+  .zgcxPages {
+    margin-top: 16px;
+    background: #ffffff;
+
+    img {
+      margin-top: 53px;
+      width: 87px;
+      height: 87px;
+    }
+
+    p {
+      font-size: 32px;
+      font-weight: bold;
+      color: rgba(16, 16, 16, 1);
+
+      span {
+        font-weight: normal;
+        font-size: 28px;
+        color: #898989;
+      }
+    }
+
+    span {
+      font-size: 28px;
+      color: #898989;
+    }
+
+    .Item {
+      height: 105px;
+      margin: 0 30px;
+      border-bottom: 1px solid rgba(238, 238, 238, 1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 28px;
+      color: #898989;
+    }
+
+    .base {
+      background: #ffffff;
+      position: absolute;
+      bottom: 200px;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .base-tab {
+        flex: 0 0 auto;
+        // width: 330px;
+        width: 690px;
+        border-radius: 4px;
+        background: #FFC501;
+        line-height: 88px;
+
+        .unactive {
+          background: #DEDEDE;
+        }
+      }
+    }
+  }
+}

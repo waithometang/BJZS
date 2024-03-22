@@ -1,0 +1,132 @@
+.yrybm {
+  background: rgba(245, 245, 245, 1);
+
+  .head {
+    background: #ffffff;
+    padding: 30px;
+  }
+
+  .middle {
+    margin-top: 16px;
+    background: #ffffff;
+    padding: 0 30px;
+    padding-bottom: 30px;
+
+    .middle-title {
+      padding-top: 30px;
+      font-size: 32px;
+      font-weight: 400;
+      color: rgba(51, 51, 51, 1);
+      text-align: left;
+    }
+
+    .middle-tab {
+      margin-top: 30px;
+      padding: 27px 30px;
+      border: 2px dashed #efefef;
+      border-radius: 10px;
+      display: flex;
+      align-items: flex-start;
+
+      .tab-left {
+        flex: 0 0 auto;
+        margin-top: 4px;
+
+        i {
+          display: inline-block;
+          width: 32px;
+          height: 25px;
+          background: url('/static/ybmimages/touxiang.png') no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+
+      .tab-right {
+        flex: 1;
+        margin-left: 20px;
+
+        .right-head {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 22px;
+
+          .head-left {
+            font-size: 28px;
+            font-weight: 500;
+            color: rgba(51, 51, 51, 1);
+          }
+
+          .head-right {
+            font-size: 28px;
+            font-weight: normal;
+            color: rgba(200, 200, 200, 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            i {
+              display: inline-block;
+              margin-left: 14px;
+              width: 34px;
+              height: 34px;
+              background: url('/static/ybmimages/xinzeng.png') no-repeat;
+              background-size: 100% 100%;
+            }
+          }
+        }
+
+        .right-tab {
+          font-size: 28px;
+          font-weight: normal;
+          color: rgba(102, 102, 102, 1);
+          text-align: left;
+          margin-bottom: 10px;
+
+          .span_cor {
+            color: #CCCCCC;
+          }
+        }
+
+        .right-base {
+          display: flex;
+          align-items: flex-end;
+          justify-content: space-between;
+
+          .base-left {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 400;
+            color: rgba(153, 153, 153, 1);
+
+            i {
+              display: inline-block;
+              margin-right: 12px;
+              width: 26px;
+              height: 26px;
+              background: url('/static/ybmimages/时间.png') no-repeat;
+              background-size: 100% 100%;
+            }
+          }
+
+          .base-right {
+            flex: 0 0 auto;
+            font-size: 24px;
+            font-weight: normal;
+            padding: 8px 15px;
+            color: #44828C;
+            background: #DDF5E9;
+            border-radius: 6px;
+
+            .cor {
+              color: red;
+            }
+          }
+        }
+      }
+    }
+  }
+}

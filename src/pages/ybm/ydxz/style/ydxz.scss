@@ -1,0 +1,43 @@
+.ydxz {
+  background: #ffffff;
+  .head {
+    padding: 40px;
+  }
+  .interval {
+    height:16px;
+    width: 100%;
+    background:rgba(248,248,248,1);
+  }
+  .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 204px;
+    background: url('/static/ybmimages/img_07.png') top left no-repeat, url('/static/ybmimages/img_08.png') top right no-repeat, url('/static/ybmimages/img_09.png') bottom no-repeat;
+    background-size: 180px 113px, 180px 113px, 100% 200px;
+    .content-title {
+      padding: 113px 34px 200px 61px;
+      .title-name {
+        font-size: 34px;
+        font-weight: bold;
+        color: #333333;
+        text-align: left;
+      }
+      .title-tab {
+        margin-top: 20px;
+        text-align: left;
+        font-size: 28px;
+        color: rgba(51,51,51,1);
+        line-height: 66px;
+        text-indent: 30px;
+        span {
+          color: #FF3333;
+        }
+      }
+      .content-base-but {
+        margin-top: 100px;
+      }
+    }
+  }
+}

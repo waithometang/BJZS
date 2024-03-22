@@ -1,0 +1,118 @@
+.zmcl {
+  .middle {
+    text-align: left;
+    padding: 30px;
+
+    .tips {
+      font-size: 28px;
+      font-family: Microsoft YaHei;
+      font-weight: 400;
+      color: #333333;
+      margin: 30px 0;
+    }
+
+    .title {
+      font-size: 32px;
+      font-family: Microsoft YaHei;
+      font-weight: bold;
+      color: #101010;
+    }
+
+    .base-tab {
+      font-size: 28px;
+      font-family: Microsoft YaHei;
+      font-weight: 400;
+      color: #101010;
+      padding: 30px 0;
+      border-bottom: 1px solid #EFEFEF;
+
+      span {
+        color: #333;
+      }
+    }
+
+    .bd-none {
+      border-bottom: none;
+    }
+  }
+
+  .bd-line {
+    height: 16px;
+    background: #EFEFEF;
+  }
+
+  .module {
+    padding: 30px;
+    text-align: left;
+
+    .title {
+      font-size: 32px;
+      font-family: Microsoft YaHei;
+      font-weight: bold;
+      color: #333333;
+    }
+
+    .list {
+      .desc {
+        font-size: 28px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: #333333;
+        margin: 30px 0;
+      }
+
+      .check {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+
+        .state {
+          font-size: 26px;
+          font-family: Microsoft YaHei;
+          font-weight: 400;
+          color: #029AFD;
+
+          .not {
+            color: red;
+          }
+        }
+
+        .time {
+          font-size: 26px;
+          font-family: Microsoft YaHei;
+          font-weight: 400;
+          color: #898989;
+        }
+      }
+
+      .scsm {
+        font-size: 26px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: red;
+        margin-bottom: 20px;
+      }
+
+      .pics {
+        display: flex;
+        flex-wrap: wrap;
+
+        .pic-item {
+          width: 171px;
+          height: 171px;
+          border-radius: 10px;
+          margin-right: 24px;
+          margin-bottom: 20px;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+      }
+    }
+  }
+}

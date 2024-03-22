@@ -1,0 +1,212 @@
+.yrybm {
+  .head {
+    padding: 30px;
+  }
+
+  .bd-line {
+    height: 16px;
+    background: #F5F5F5;
+  }
+
+  .middle {
+    text-align: left;
+    padding: 30px;
+
+    .title {
+      font-size: 32px;
+      font-family: Microsoft YaHei;
+      font-weight: 400;
+      color: #333333;
+    }
+
+    .list-item {
+      border: 2px dashed #ccc;
+      border-radius: 10px;
+      padding: 30px;
+      display: flex;
+      margin-top: 40px;
+
+      .left {
+        width: 32px;
+        height: 26px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .right {
+        margin-left: 20px;
+        flex: 1;
+
+        .top,
+        .tab-base {
+          font-size: 28px;
+          font-family: Microsoft YaHei;
+          font-weight: 400;
+          color: #333;
+          margin-bottom: 26px;
+        }
+
+        .tab-base {
+          color: #666;
+        }
+
+        .footer {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .left {
+            display: flex;
+            flex: 1;
+            align-items: center;
+            font-size: 24px;
+            font-family: Microsoft YaHei;
+            font-weight: 400;
+            color: #999999;
+
+            img {
+              width: 26px;
+              height: 26px;
+              margin-right: 12px;
+            }
+          }
+
+          .right-zt {
+            font-size: 24px;
+            font-family: Microsoft YaHei;
+            font-weight: 400;
+            color: #44828C;
+            padding: 8px 18px;
+            background: #DDF5E9;
+            border-radius: 6px;
+
+            .cor {
+              color: red;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  .box-content {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, .6);
+
+    .box-tab {
+      width: 640px;
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 0 21px;
+      padding-bottom: 10px;
+
+      .tab-head {
+        padding-top: 18px;
+        display: flex;
+        justify-content: flex-end;
+
+        .head-title {
+          flex: 1;
+          text-align: left;
+          font-size: 30px;
+          font-weight: bold;
+          color: #000000;
+        }
+
+        .head-icon {
+          flex: 0 0 auto;
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          background: url('/static/ybmimages/叉-1.png') no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+
+      .tab-middle {
+        margin-top: 26px;
+        // padding: 0 25px;
+
+        .middle-title {
+          text-align: left;
+          font-size: 28px;
+          font-family: PingFang SC;
+          font-weight: 500;
+          color: #000000;
+          line-height: 50px;
+        }
+
+        .middle-phone {
+          font-size: 34px;
+          color: #101010;
+          text-align: center;
+          font-weight: bold;
+          padding-bottom: 65px;
+        }
+      }
+
+      .tab-icon {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        i {
+          display: inline-block;
+          width: 71px;
+          height: 71px;
+          background: url('/static/ybmimages/remind.png') no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+
+      .tab-base {
+        padding: 0 9px;
+        margin-top: 22px;
+
+        .base-tag {
+          height: 80px;
+          border: 1px solid rgba(238, 238, 238, 1);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 28px;
+          font-weight: normal;
+          color: rgba(51, 51, 51, 1);
+          padding-bottom: 14px;
+          margin-top: 30px;
+        }
+      }
+
+      .confirm {
+        display: block;
+        text-align: right;
+        color: #0099FF;
+        font-size: 28px;
+        margin: 10px 10px 0 0;
+      }
+
+      .Studentradio {
+        margin: 30px 0;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+
+        .van-radio {
+          margin: 30px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.xjzc {
+  background: rgba(245, 245, 245, 1);
+
+  .head {
+    padding: 30px;
+    background: #ffffff;
+  }
+
+  .xjzcPages {
+    margin-top: 16px;
+    padding-top: 11px;
+    background: #ffffff;
+
+    .xjzcImage {
+      margin: 0 24px;
+      height: 273px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .xjzcTit {
+      font-size: 28px;
+      padding: 0 30px;
+      text-align: left;
+
+      p {
+        margin: 23px 0 30px 0;
+        color: #333333;
+        font-weight: 500;
+      }
+
+      a {
+        color: #0099FF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 36px;
+          height: 36px;
+        }
+      }
+    }
+
+    .xjzcItem {
+      height: 105px;
+      margin: 0 30px;
+      border-bottom: 1px solid rgba(238, 238, 238, 1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: Microsoft YaHei;
+      font-weight: 400;
+      font-size: 28px;
+      color: #101010;
+    }
+
+    .xjzcButton {
+      margin: 100px 30px;
+      display: flex;
+      justify-content: space-around;
+      height: 88px;
+
+      div {
+        height: 100%;
+        width: 100%;
+        font-size: 32px;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        background: #FFC501;
+        text-align: center;
+        line-height: 88px;
+        border-radius: 4px;
+      }
+    }
+  }
+}

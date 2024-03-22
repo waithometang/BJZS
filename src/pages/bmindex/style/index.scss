@@ -1,0 +1,489 @@
+.index {
+  // background: rgba(242, 242, 242, 1);
+  background-color: #fff;
+
+  .head {
+    background: #ffffff;
+
+    .icon {
+      height: 300px;
+      width: 100%;
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .yrybm {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 30px 30px 10px;
+
+      .left-img {
+        img {
+          width: 140px;
+          height: 127px;
+        }
+      }
+
+      .middle-content {
+        flex: 1;
+        text-align: left;
+        margin-left: 20px;
+
+        .title {
+          font-size: 36px;
+          font-family: PingFang SC;
+          font-weight: bold;
+          color: #333333;
+          line-height: 60px;
+        }
+
+        .detail {
+          font-size: 26px;
+          font-family: PingFang SC;
+          font-weight: bold;
+          // color: #908F9E;
+          color: red;
+        }
+      }
+
+      .right-arrow {
+        img {
+          width: 16px;
+          height: 28px;
+        }
+      }
+    }
+
+    .category {
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .category-tab {
+        flex: 0 0 auto;
+
+        img {
+          width: 169px;
+          height: 137px;
+        }
+
+        .tab-left {
+          flex: 0 0 auto;
+          margin-top: 20px;
+
+          .left-head {
+            font-size: 30px;
+            font-weight: bold;
+            color: rgba(51, 51, 51, 1);
+          }
+        }
+
+        .tab-right {
+          flex: 0 0 auto;
+          width: 146px;
+          height: 123px;
+          background: url("/static/ybmimages/xiaoxue_2.png") no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+
+      .category-tab:last-child {
+        .tab-right {
+          background: url("/static/ybmimages/chuzhong_2.png") no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+    }
+
+    .apply {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 30px;
+
+      .apply-item {
+        padding: 25px 15px;
+        background: rgba(255, 250, 239, 1);
+        width: 334px;
+        box-sizing: border-box;
+        align-items: center;
+        display: flex;
+
+        .apply-img {
+          width: 88px;
+          height: 88px;
+          border-radius: 50%;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .apply-font {
+          margin-left: 15px;
+          text-align: left;
+
+          span {
+            font-size: 30px;
+            font-family: PingFang SC;
+            font-weight: bold;
+            color: rgba(51, 51, 51, 1);
+          }
+
+          p {
+            margin: 10px 0 0 0;
+            font-size: 24px;
+            font-family: PingFang SC;
+            font-weight: 500;
+            color: rgba(102, 102, 102, 1);
+          }
+        }
+      }
+    }
+
+    // .category {
+    //   margin-top: 30px;
+    //   display: flex;
+    //   align-items: center;
+    //   justify-content: space-between;
+    //   .category-tab {
+    //     flex: 0 0 auto;
+    //     width:330px;
+    //     height:130px;
+    //     text-align: left;
+    //     border-radius:10px;
+    //     background: url('/static/ybmimages/img_02.png') no-repeat;
+    //     background-size: 100% 100%;
+    //     font-size:32px;
+    //     font-weight:500;
+    //     color:rgba(255,255,255,1);
+    //     line-height: 130px;
+    //     .name {
+    //       margin-left: 55px;
+    //     }
+    //   }
+    //   .category-tab-medium {
+    //     background: url('/static/ybmimages/img_03.png') no-repeat;
+    //     background-size: 100% 100%;
+    //   }
+    // }
+  }
+
+  .line-bd {
+    width: 690px;
+    height: 1px;
+    background: #F2F2F2;
+    margin-left: 30px;
+
+  }
+
+  .inform {
+    background: #ffffff;
+    // margin-top: 16px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .inform-icon {
+      flex: 0 0 auto;
+      padding-right: 20px;
+      width: 72px;
+      height: 68px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .inform-content {
+      border-left: 1px solid #cccccc;
+
+      flex: 1;
+      padding-left: 20px;
+      text-align: left;
+
+      .inform-content-tab {
+        .inform-title {
+          font-size: 30px;
+          font-weight: 400;
+          color: rgba(51, 51, 51, 1);
+        }
+
+        .inform-name {
+          margin-top: 5px;
+          font-size: 24px;
+          font-weight: 400;
+          color: rgba(155, 155, 155, 1);
+        }
+
+        .inform-head {
+          font-size: 26px;
+          font-weight: 500;
+          color: rgba(51, 51, 51, 1);
+          overflow: hidden;
+          text-overflow: -o-ellipsis-lastline;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          line-clamp: 1;
+          -webkit-box-orient: vertical;
+        }
+
+        .inform-base {
+          margin-top: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+
+          .infrom-base-tab {
+            flex: 0 0 auto;
+            margin-right: 30px;
+            background: #DDF5E9;
+            padding: 5px 18px;
+            border-radius: 4px;
+            font-size: 20px;
+            font-weight: 500;
+            color: #44828C;
+          }
+        }
+      }
+    }
+
+    .search {
+      width: 690px;
+      height: 90px;
+      background: rgba(242, 242, 242, 1);
+      border-radius: 41px;
+      display: flex;
+      align-items: center;
+
+      .search_font {
+        text-align: left;
+        margin-left: 30px;
+
+        span {
+          font-size: 30px;
+          color: #333333;
+        }
+
+        p {
+          margin: 0 0 0 0;
+          font-size: 24px;
+          color: #9B9B9B;
+        }
+      }
+
+      .chaxun_img,
+      .jinru_img {
+        width: 61px;
+        height: 61px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .chaxun_img {
+        margin-left: 33px;
+      }
+
+      .jinru_img {
+        margin-left: auto;
+        margin-right: 33px;
+      }
+    }
+  }
+
+  .line {
+    height: 16px;
+    background: #F2F2F2;
+  }
+
+  .procedure {
+    background: #ffffff;
+    padding: 30px;
+
+    .procedure-name {
+      text-align: left;
+      font-size: 36px;
+      font-weight: bold;
+      color: rgba(51, 51, 51, 1);
+
+      span {
+        color: #FFC501;
+      }
+    }
+
+    .procedure-list {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .bar {
+        position: relative;
+        width: 60px;
+
+        .icon-name {
+          position: relative;
+          z-index: 1;
+
+          // flex: 1;
+          .icon {
+            width: 60px;
+            height: 60px;
+            display: inline-block;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          .name {
+            font-size: 24px;
+            font-weight: 500;
+            color: rgba(120, 120, 120, 1);
+            margin-top: 10px;
+          }
+        }
+
+        .procedure-bar {
+          // flex: 0 0 53px;
+          // margin: 0 5px;
+          border-top: 2px dashed#D0E8DC;
+          // margin-top: 30px;
+          // position: relative;
+          position: absolute;
+          width: 100px;
+          top: 31px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          left: 30px;
+          z-index: 0;
+
+          .bar-icon {
+            margin-top: -7px;
+            height: 12px;
+            width: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+              height: 100%;
+              width: 100%;
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .information {
+    padding: 30px;
+    background: #ffffff;
+
+    .information-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .title-icon {
+        flex: 0 0 auto;
+        font-size: 36px;
+        font-weight: bold;
+        color: rgba(51, 51, 51, 1);
+        // width: 140px;
+        // height: 30px;
+        // background: url('/static/ybmimages/zxdt.png') no-repeat;
+        // background-size: 100% 100%;
+      }
+
+      .title-more {
+        flex: 0 0 auto;
+        font-size: 24px;
+        font-weight: 500;
+        color: rgba(103, 103, 103, 1);
+        display: flex;
+        align-content: center;
+        justify-content: center;
+
+        .more-icon {
+          margin-left: 8px;
+          margin-top: 8px;
+          width: 27px;
+          height: 20px;
+          background: url("/static/ybmimages/more.png") no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+    }
+
+    .information-list {
+      margin-top: 30px;
+
+      .information-tab {
+        border-bottom: 1px dashed #cccccc;
+        padding: 20px 0;
+
+        .tab-head {
+          min-height: 60px;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: -o-ellipsis-lastline;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          line-clamp: 2;
+          -webkit-box-orient: vertical;
+          font-size: 30px;
+          color: black;
+          line-height: 54px;
+        }
+
+        .tab-base {
+          margin-top: 20px;
+          display: flex;
+          align-items: center;
+          font-size: 24px;
+          font-weight: 500;
+          color: rgba(153, 153, 153, 1);
+
+          .base-time {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            margin-right: 100px;
+
+            .time-icon,
+            .read-count {
+              width: 26px;
+              height: 26px;
+              margin-right: 10px;
+              background: url("/static/ybmimages/time.png") no-repeat;
+              background-size: 100% 100%;
+            }
+
+            .read-count {
+              background: url("/static/ybmimages/eye.png") no-repeat;
+              background-size: 100% 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

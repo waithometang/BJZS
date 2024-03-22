@@ -1,0 +1,227 @@
+.yryxzlx {
+  background: rgba(245, 245, 245, 1);
+
+  .head {
+    padding: 30px;
+    background: #ffffff;
+  }
+
+  .middle {
+    margin-top: 16px;
+    padding: 0 30px;
+    background: #ffffff;
+
+    .middle-title {
+      padding-top: 38px;
+      font-size: 32px;
+      font-weight: bold;
+      color: rgba(40, 40, 40, 1);
+      text-align: left;
+
+      .middle-title-hint {
+        margin-top: 10px;
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(137, 137, 137, 1);
+        text-align: left;
+      }
+
+      .middle-title-action {
+        color: #44828C;
+        font-size: 26px;
+      }
+    }
+
+    .ydzc {
+      margin-top: 45px;
+      text-align: left;
+
+      .ydzc_title {
+        font-size: 32px;
+        font-weight: bold;
+        color: rgba(40, 40, 40, 1);
+      }
+
+      .ydzc_select {
+        padding: 30px 0;
+        border-bottom: 1px solid rgba(239, 239, 239, 1);
+        ;
+      }
+    }
+
+    .imgUpdata {
+      margin-top: 40px;
+      text-align: left;
+
+      .imgUpdata_title {
+        font-size: 28px;
+        color: rgba(51, 51, 51, 1);
+      }
+
+      .imgList {
+        width: 171px;
+        height: 171px;
+        border: 2px solid rgba(210, 210, 210, 1);
+        border-radius: 10px;
+        margin-top: 24px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .type-list {
+      .list-tab {
+        margin-top: 20px;
+        padding: 30px;
+        background: #F8F8F8;
+        border-radius: 10px;
+        font-size: 28px;
+        font-weight: bold;
+        color: rgba(51, 51, 51, 1);
+        text-align: left;
+
+        span {
+          color: #898989;
+
+          span {
+            color: #F64C4C;
+          }
+        }
+      }
+
+      .list-tab-action {
+        background: #E5F5FF;
+        color: #0099FF;
+
+        span {
+          color: #0099FF;
+        }
+      }
+    }
+
+    .policy-tab {
+      // margin-top: 45px;
+      padding-top: 20px;
+
+      .policy-title {
+        text-align: left;
+        font-size: 32px;
+        font-weight: bold;
+        color: rgba(40, 40, 40, 1)
+      }
+
+      .policy-select {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 500;
+        color: rgba(137, 137, 137, 1);
+        border-bottom: 1px solid #EFEFEF;
+        padding-bottom: 20px;
+
+        p {
+          flex: 1;
+          margin: 0;
+          padding: 0;
+          text-align: left;
+        }
+
+        i {
+          display: inline-block;
+          flex: 0 0 auto;
+          margin-left: 24px;
+          width: 13px;
+          height: 24px;
+          background: url('/static/ybmimages/select.png') no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+    }
+
+    .info-list {
+      .info-title {
+        padding-top: 40px;
+        text-align: left;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgba(16, 16, 16, 1);
+
+        p {
+          font-size: 26px;
+          color: rgba(243, 49, 49, 1);
+          margin: 0;
+          margin-top: 20px;
+        }
+      }
+
+      .info-name {
+        text-align: left;
+        font-size: 26px;
+        font-weight: normal;
+        color: rgba(243, 49, 49, 1);
+      }
+    }
+
+    .select-tag {
+      border-bottom: 1px solid rgb(129, 95, 95);
+      margin-bottom: 20px;
+
+      .select-title {
+        text-align: left;
+        margin-top: 35px;
+        font-size: 28px;
+        font-weight: 500;
+        color: rgba(16, 16, 16, 1);
+        padding-top: 30px;
+      }
+
+      .select-input {
+        height: 94px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        input {
+          flex: 1;
+          height: 94px;
+        }
+
+        i {
+          display: inline-block;
+          flex: 0 0 auto;
+          margin-left: 10px;
+          width: 24px;
+          height: 13px;
+          background: url('/static/ybmimages/xiala.png') no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+    }
+  }
+
+  .base {
+    background: #ffffff;
+    padding: 30px;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .base-tab {
+      flex: 0 0 auto;
+      width: 320px;
+    }
+
+    .width {
+      width: 690px;
+    }
+
+    .base-tab-action {
+      flex: 1;
+    }
+  }
+}

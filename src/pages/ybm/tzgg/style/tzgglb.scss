@@ -1,0 +1,128 @@
+.zxdt {
+  background: #ffffff;
+  .head-icon {
+    height: 250px;
+    background: url('/static/ybmimages/tzgg_banner.png') no-repeat;
+    background-size: 100% 100%;
+  }
+  .head-search {
+    margin: 10px 30px 0 30px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 15px 15px;
+    background: #f4f4f4;
+    .head-search-left {
+      border-radius: 15px 15px 15px 15px;
+      flex: 1;
+      border:none;
+      margin-right: 7px;
+      background: #f4f4f4;
+      padding-left: 20px;
+      font-size: 30px;
+      input {
+        width: 100%;
+        height: 100%;
+        background: #f4f4f4;
+      }
+    }
+    .head-search-right {
+      flex: 0 0 auto;
+      padding: 0 20px;
+      i {
+        display: inline-block;
+        height: 45px;
+        width: 45px;
+        background: url('/static/ybmimages/search.png') no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+  }
+  .information {
+    padding: 0 30px;
+    .information-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .title-icon {
+        flex: 0 0 auto;
+        width: 140px;
+        height: 30px;
+        background: url('/static/ybmimages/zxdt.png') no-repeat;
+        background-size: 100% 100%;
+      }
+      .title-more {
+        flex: 0 0 auto;
+        font-size:24px;
+        font-weight:500;
+        color:rgba(103,103,103,1);
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        .more-icon {
+          margin-left: 8px;
+          margin-top: 8px;
+          width:27px;
+          height:20px;
+          background: url('/static/ybmimages/more.png') no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+    }
+    .information-list {
+      .information-tab {
+        border-bottom: 1px dashed #cccccc;
+        padding: 20px 0;
+        .tab-head {
+          min-height: 60px;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: -o-ellipsis-lastline;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          line-clamp: 2;
+          -webkit-box-orient: vertical;
+          font-size: 30px;
+          color: black;
+          line-height:54px;
+        }
+        .tab-base {
+          margin-top: 20px;
+          display: flex;
+          align-items: center;
+          font-size:24px;
+          font-weight:500;
+          color:rgba(153,153,153,1);
+          .base-time {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            margin-right: 100px;
+            .time-icon {
+              width:26px;
+              height:26px;
+              margin-right: 10px;
+              background: url('/static/ybmimages/time.png') no-repeat;
+              background-size: 100% 100%;
+            } 
+          }
+          .base-tab {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            .tab-icon {
+              width:26px;
+              height:26px;
+              margin-right: 10px;
+              background: url('/static/ybmimages/browse.png') no-repeat;
+              background-size: 100% 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

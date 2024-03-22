@@ -1,0 +1,84 @@
+.jbxx {
+  .middle {
+    text-align: left;
+    padding: 30px;
+
+    .title {
+      font-size: 32px;
+      font-family: Microsoft YaHei;
+      font-weight: bold;
+      color: #101010;
+    }
+
+    .base-tab {
+      font-size: 28px;
+      font-family: Microsoft YaHei;
+      font-weight: 400;
+      color: #101010;
+      padding: 30px 0;
+      border-bottom: 1px solid #EFEFEF;
+
+      span {
+        color: #333;
+      }
+    }
+
+
+  }
+
+  .footer-btn {
+    padding: 30px;
+    font-size: 32px;
+
+    // justify-content: space-between;
+    .base-btn {
+      display: flex;
+      padding: 30px;
+      justify-content: space-between;
+
+      .tab-btn {
+        flex-basis: 48%;
+        line-height: 80px;
+        background-color: #FFC501;
+        border-radius: 10px;
+
+        &.disBtn {
+          flex-basis: 98%;
+        }
+      }
+
+    }
+
+    .base {
+      background: #ffffff;
+      margin-top: 17px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .base-tab {
+        flex: 0 0 auto;
+        width: 320px;
+      }
+
+      .width {
+        width: 690px;
+      }
+
+      .base-but {
+        padding: 45px;
+      }
+    }
+
+    // .btn-tab {
+    //   flex-basis: 48%;
+    //   line-height: 80px;
+    //   background-color: #FFC501;
+    //   border-radius: 10px;
+    // }
+
+    // .btn-show {
+    //   flex: 1;
+    // }
+  }
+}
